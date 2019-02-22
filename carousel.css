@@ -1,0 +1,32 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* remove later */ 
+
+  a:hover { 
+  color: #ee913a;
+}
+
+  footer {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  
+  .container {
+  width: 100%;
+  margin: 0 auto;
+  }
+
+/* Media Queries */ 
+@media screen and (min-width: 769px) {
+  body {
+    padding-top: 50px;
+  }
+  footer {
+    float: center;
+  }
+
+}
