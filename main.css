@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.main-nav {
+  padding: 50x 150px;
+}
+
 body {
   font-family: "Bitstream Vera Serif Bold", serif;
   font-weight: 300;
@@ -64,7 +68,7 @@ footer {
 @media screen and (min-width: 769px) {
 
   body {
-    padding-top: 10px;
+    padding-top: 5px;
   }
 
   form {
