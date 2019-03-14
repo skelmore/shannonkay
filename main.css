@@ -4,15 +4,25 @@
   box-sizing: border-box;
 }
 
-.main-nav {
-  padding: 50x 150px;
-}
-
 body {
   font-family: "Bitstream Vera Serif Bold", serif;
   font-weight: 300;
   color: black;
   text-align: center;
+}
+
+.main-nav {
+  position: fixed;
+  background: white;
+  box-shadow: 0 1px 4px rgba(0,0,0,.4)
+  top: 0;
+  float: none;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 25px 25px;
+  font-family: "Bitstream Vera Serif Bold", serif;
+  font-weight: bolder;
 }
 
 h1 {
@@ -34,7 +44,7 @@ h3 {
 }
 
 form {
-  max-width: 300px;
+  max-width: 400px;
   margin: 30px auto;
   padding: 10px;
   background: #ee913a;
@@ -44,38 +54,16 @@ form {
 footer {
   margin: 0 0 30px 0;
   text-align: center;
+  font-family: "Bitstream Vera Serif Bold", serif;
 }
 
   a:hover { 
     color: #ee913a;
   }
 
-.main-nav {
-  position: fixed;
-  background: white;
-  box-shadow: 0 1px 4px rgba(0,0,0,.4)
-  top: 0;
-  float: none;
-  display: block;
-  text-align: left;
-  width: 100%;
-  padding: 15px 15px;
-  font-family: "Bitstream Vera Serif Bold", serif;
-  font-weight: bolder;
-}
 
 /* Media Queries */ 
 @media screen and (min-width: 769px) {
 
-  body {
-    padding-top: 5px;
-  }
 
-  form {
-    max-width: 480px;
-  }
-
-  footer {
-    font-family: "Bitstream Vera Serif Bold", serif;
-    float: center;
-  }
+    
