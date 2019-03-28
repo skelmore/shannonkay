@@ -3,38 +3,33 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Shannon Kay Photography</title>
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="custom.css">
         <link href='http://fonts.googleapis.com/css?family=Redressed:400,300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="main.css">
-        <script src="app.js"></script>
+        <link rel="stylesheet" href="custom.css">
     </head>
     
-   
+   <header class="main-nav">
+    <title>Shannon Kay Photography</title>
+      <a href="carousel.html" target='_blank'>Photo Gallery</a>
+      <a href="https://www.instagram.com/shayelmo/" target='_blank'>Instagram</a>
+   </header>
 
     <body>
-        <div>
-        <nav class="main-nav">
-            <a href="carousel.html" target='_blank'>Photo Gallery</a>
-            <a href="https://www.instagram.com/shayelmo/" target='_blank'>Instagram</a>
-            </nav> 
-        </div>
-
-        <div>
+        <div class="background-image">
           <img src='images/painteddesert1.jpeg' width="1300" height="450" alt="Painted Desert - Arizona">
         </div>
         
-        <div>
+        <div class="quote">
           <p>“The world is a book, and those who do not travel read only one page.” –Saint Augustine</p>
       </div>
 
+      <div class="feat-img">
       <h1>Featured Photo</h1>
-        <div>
         <img class='feat-img' src='images/scars1.jpeg' width="500" height="500" alt='Scars'>
       </div>
 
+      <div class="visited">
         <h2>Visited</h2>
-          <div class="visited">
             <li><a href='https://goo.gl/maps/CpVHVqPoJfo' target='_blank'> Northern Ireland</a></li>
             <li><a href='https://goo.gl/maps/hpcLyMJjxt22' target='_blank'> Ireland</a></li>
             <li><a href='https://goo.gl/maps/6RqsW8gVU6K2' target='_blank'>California</a></li>
@@ -57,27 +52,32 @@
             <li><a href='https://goo.gl/maps/YjB7XACMEV62' target='_blank'>Ohio</a></li>
             <li><a href='https://goo.gl/maps/m9rsJL4NSJy' target='_blank'>Montana</a></li>
             <li><a href='https://goo.gl/maps/qPNmwk2aoJr' target='_blank'>Kentucky</a></li>
-          </ul>
           </div>
       
-      <form >
-        <h3>Wanderlust [won-der-luhst] noun: A strong, innate desire to rove or travel about.</h3>
-         <button type="submit">Wander</button>
-         <div id='flashMessage'>
+        <div id='flashMessage' style="display: none;">
+            Bermuda
           </div>
-      </form>
-    
-      <div>
+          <form class="wander">
+          <h3>Wanderlust [won-der-luhst] noun: A strong, innate desire to rove or travel about.</h3>
+          <button>Wander</button>
+          </form>
+  
       <iframe src="https://satellites.pro/plan/world_map" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
+      
+      <script src="jquery-3.3.1.min.js"></script>
+      <script src="app.js"></script>
     </body>
 
-      <footer>
+    <div class='shayelmo_nametag1'> 
+    <footer>
         <p>Follow Me on Instagram</p>
         <img src='images/shayelmo_nametag1.png' width="100"  height="100" alt="Follow Me on Instagram">
       </footer>
+    </div> 
 
+    <div>
       <a href="index.html">Return to Top of Page</a>
+    </div>
   </html>
 
 
