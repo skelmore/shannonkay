@@ -71,10 +71,6 @@ footer {
     margin: 0 auto;
   }
 
-  .tagline {
-    font-size: 1.4em;
-  }
-}
 
 @media only screen and (min-width: 768px), 
   only screen and (min-width: 700px) and (orientation: landscape) {
