@@ -1,3 +1,5 @@
+/* Base Styles */
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -5,15 +7,18 @@
 }
 
 body {
+  background-image: url("images/painteddesert1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   font-family: "Bitstream Vera Serif Bold", serif;
-  font-weight: 300;
-  color: black;
+  font-weight: 800;
   text-align: center;
 }
 
 .main-nav {
-  position: fixed;
-  background: white;
+  position: static;
+  background-color: white;
   box-shadow: 0 1px 4px rgba(0,0,0,.4)
   top: 0;
   float: none;
@@ -25,31 +30,22 @@ body {
   font-weight: bolder;
 }
 
-
-h1 {
-  margin: 0 0 30px 0;
-  text-align: center;
-  padding: 10px 20px;
+.intro {
+  font-weight: 800;
 }
 
-h2 {
-  margin: 0 0 30px 0;
-  text-align: center;
-  padding: 10px 20px;
-}
-
-h3 {
+h1, h2, h3 {
   margin: 0 0 30px 0;
   text-align: center;
   padding: 10px 20px;
 }
 
 form {
-  max-width: 400px;
+  max-width: 625px;
   margin: 30px auto;
   padding: 10px;
   background: #ee913a;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 footer {
@@ -64,24 +60,13 @@ footer {
 
 
 /* Media Queries */ 
-@media only screen and (min-width: 480px) {
-  .main-header, 
-  .row{
-    width: 90%;
-    margin: 0 auto;
-  }
+@media only screen and (min-width: 480px) {}
 
 
 @media only screen and (min-width: 768px), 
-  only screen and (min-width: 700px) and (orientation: landscape) {
-}
+  only screen and (min-width: 700px) and (orientation: landscape) {}
 
-@media only screen and (min-width: 1140px) {
-.main-header,
-.row {
-  width: 80%;
-  max-width: 1150px;
-}
-}
+
+
 
 
