@@ -1,4 +1,5 @@
-/*Destination Generator - Randomly Suggest New Destinations*/
+/*Destination Generator - Randomly Suggest New Destinations
+when "wander" button is clicked different travel destinations will present*/
 
 var newDestination= []
 newDestination[0] = "Bermuda";
