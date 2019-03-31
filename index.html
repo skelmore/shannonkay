@@ -15,12 +15,13 @@
    </nav>
 
     <body>
-
       <div class="intro">
       <h1>“The world is a book, and those who do not travel read only one page.” –Saint Augustine</h1>
     </div>
       
-      <h2>Visited</h2>
+    <div class="container">
+      <div class="col-1">
+          <h2>Visited</h2>
             <li><a href="https://goo.gl/maps/CpVHVqPoJfo" target='_blank'> Northern Ireland</a></li>
             <li><a href="https://goo.gl/maps/hpcLyMJjxt22" target='_blank'> Ireland</a></li>
             <li><a href="https://goo.gl/maps/6RqsW8gVU6K2" target='_blank'>California</a></li>
@@ -42,27 +43,30 @@
             <li><a href="https://goo.gl/maps/JBL2xC7rJkz" target='_blank'>Louisiana</a></li>
             <li><a href="https://goo.gl/maps/YjB7XACMEV62" target='_blank'>Ohio</a></li>
             <li><a href="https://goo.gl/maps/m9rsJL4NSJy" target='_blank'>Montana</a></li>
-            <li><a href="https://goo.gl/maps/qPNmwk2aoJr" target='_blank'>Kentucky</a></li>
-          
-        <form>
-        <h3>Wanderlust [won-der-luhst] noun: A strong, innate desire to rove or travel about.</h3>
-              <div id="button">
-              <button onclick="newDestination()">Wander</button>
+            <li><a href="https://goo.gl/maps/qPNmwk2aoJr" target='_blank'>Kentucky</a></li>  
             </div>
-            <p id="pdestination"></p>
-          </form>
-
-          <h4 class="world_map""></h4>
-            <iframe src="https://satellites.pro/plan/world_map" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
-          
+            
+         <div class="col-2">
+            <form>
+                <h3>Wanderlust [won-der-luhst] noun: A strong, innate desire to rove or travel about.</h3>
+                      <button onclick="newDestination()">Wander</button>
+                    <p id="pdestination"></p>
+                </form>           
+            <!-- Interactive Map (including weather option) -->
+                    <iframe src="https://satellites.pro/plan/world_map" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>  
+        </div> 
     </body>
 
+    <!-- Footer -->
+    <div>
     <footer class="shayelmo_nametag1">
       <p>Follow Me on Instagram</p>
          <img src="images/shayelmo_nametag1.png" width="100"  height="100" alt="Follow Me on Instagram">
     </footer>
 
      <a href="index.html">Return to Top of Page</a>
+    </div>
    </html>
 
 
