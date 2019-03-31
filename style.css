@@ -1,4 +1,5 @@
 /* Base Styles */
+/* simple style - additional styling to be added as more experience obtained*/
 
 .main-nav {
   position: static;
@@ -56,6 +57,7 @@ footer {
 
 
 /* Media Queries */ 
+/* two column layout will reduce to one column on smaller devices*/
 
 .container {
   display: flex;
